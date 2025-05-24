@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --red: #ff0000;
+  --blue: #00bfff;
+  --black: #000000;
+  --white: #ffffff;
+  --green: #09ff00;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("/image/sigin_bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#form {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  border: 1px solid var(--blue);
+}
+.img_container {
+  text-align: center;
+}
+.img_container img {
+  width: 200px;
+  height: 200px;
+}
+
+.img_container h1 {
+  color: var(--blue);
+  margin-top: -50px;
+}
+button {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--white);
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.input-group input {
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid var(--blue);
+}
+.input-group input:focus {
+  outline: 0;
+}
+.error {
+  color: var(--red);
+  margin-top: 3px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.input-group label {
+  color: var(--black);
+  font-size: 18px;
+  color: #00bfff;
+}
+.input-group.success input {
+  border: 1px solid var(--green);
+}
+.input-group.error input {
+  border: 1px solid var(--red);
+}

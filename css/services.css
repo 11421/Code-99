@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --red: #ff0000;
+  --blue: #00bfff;
+  --black: #000000;
+  --white: #ffffff;
+  --bgblack: #000000c8;
+}
+.services-hero-conatiner {
+  background-image: url("/image/about_banner_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 100px;
+  align-items: center;
+}
+
+.services-content h1 {
+  color: var(--white);
+  font-size: 50px;
+  text-align: center;
+}
+.services-content p {
+  color: #ffd736fe;
+  font-size: 20px;
+}
+.year-content {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.year-content h2 {
+  color: #ffd736fe;
+  margin-top: 10px;
+}
+.year-content img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* <!-- service content --> */
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 10%;
+  margin-top: 40px;
+}
+section ul li {
+  margin-left: 30px;
+}
+.section-content h2 {
+  color: var(--red);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.section-content li {
+  line-height: 30px;
+  list-style: url("/image/list_style.png");
+  margin-top: 5px;
+  color: var(--blue);
+}
+
+/* form_content*/
+.form_content {
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-color: #383838;
+  background-image: url("/image/pink_bgimg.jpg");
+  background-size: cover;
+  height: 45vh;
+  padding: 30px;
+}
+
+.form_content h2 {
+  color: var(--red);
+  margin-bottom: 5px;
+}
+.btn_1 {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--white);
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.input-group input {
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid var(--blue);
+}
+.input-group input:focus {
+  outline: 0;
+}
+
+select {
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid var(--blue);
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blood bank</title>
+    <!-- link style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/logo.png" alt="" />
+        <h2>BlOOD BANK</h2>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="Serivecs.html">Services</a></li>
+        <li><a href="login.html">Contact us</a></li>
+      </ul>
+      <div class="btn">
+        <a href="Register.html"><button>Register</button></a>
+        <a href="login.html"><button>Login</button></a>
+      </div>
+      <ul class="navbar-menu700px">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="Serivecs.html">Services</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="Register.html">Resgister</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <div class="menu_bars">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </nav>
+
+    <!-- hero  conatiner-->
+    <div class="headrimg">
+      <img src="image/hero_1.jpg" class="hero1" alt="" />
+      <img src="image/hero_3.jpg" class="hero2" alt="" />
+    </div>
+    <!-- Hero contianer end -->
+
+    <!-- Articles -->
+    <section class="slider_section">
+      <div class="articles_heading">
+        <h1>Articles</h1>
+      </div>
+      <div class="slider">
+        <div class="slider_track">
+          <div class="articles_content">
+            <img src="image/blood_collection.jpg" alt="" />
+            <h3>Blood Collection</h3>
+            <p>
+              Blood banks collect blood from donors through campaigns.
+              <br />Some blood banks use a replacement donation system where
+              family and friends donate blood for transfusions.
+            </p>
+          </div>
+
+          <div class="articles_content">
+            <img src="image/blood_testing.jpg" alt="" />
+            <h3>Blood Testing</h3>
+            <p>
+              Blood banks test donated blood for infectious diseases, blood
+              type, and other markers.
+            </p>
+          </div>
+
+          <div class="articles_content">
+            <img src="image/blood_componet_preparation.jpg" alt="" />
+            <h3>Blood Component Preparation</h3>
+            <p>
+              Blood banks prepare blood components like packed red blood cells,
+              plasma, and platelets.
+            </p>
+          </div>
+
+          <div class="articles_content">
+            <img src="image/blood_sotarage.JPG" alt="" />
+            <h3>Blood Storage</h3>
+            <p>
+              Blood banks store blood at the right temperature and preserve it
+              for up to four weeks.
+            </p>
+          </div>
+
+          <div class="articles_content">
+            <img src="image/donor_screening.jpg" alt="" />
+            <h3>Donor Screening</h3>
+            <p>Blood banks screen donors for infectious diseases.</p>
+          </div>
+
+   
+   </section>
+      <!-- duplicate -->
+         <!-- <div class="articles_content">
+          <img src="image/blood_collection.jpg" alt="" />
+          <h3>Blood Collection</h3>
+          <p>
+            Blood banks collect blood from donors through campaigns.
+            <br />Some blood banks use a replacement donation system where
+            family and friends donate blood for transfusions.
+          </p>
+        </div>
+
+        <div class="articles_content">
+          <img src="image/blood_testing.jpg" alt="" />
+          <h3>Blood Testing</h3>
+          <p>
+            Blood banks test donated blood for infectious diseases, blood
+            type, and other markers.
+          </p>
+        </div>     -->
+        
+    <!--  inquery form-->
+    <section class="inquery_container">
+      <div class="inquery_heading">
+        <h1>Call Us</h1>
+        <h3>You can call us for your inquiries about any information.</h3>
+      </div>
+      <div class="inquery_img">
+        <img src="image/whats.png" alt="" />
+        <p class="number">+91 9884356863</p>
+      </div>
+    </section>
+
+    <!-- footer -->
+     <footer class="footer-container">
+       <div class="footer-content">
+        <img src="image/logo.png" alt="">
+        <p class="para">We are passionate about blood banking. Passionate about blood availability to every needy patient.
+          compassion towards the human sufferings is the major factor that drives us for
+           excellence in prompt and quality services to the society.
+           </p>
+           <p class="quoate">Life saver is bigger than the life giver! Just donate blood.</p>
+       </div>
+       <div class="footer-navbar-menu">
+        <ul >
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="Serivecs.html">Services</a></li>
+          <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+       </div>
+     </footer>
+  </body>
+
+  <script>
+    const menu_bars=document.querySelector('.menu_bars')
+    const menu=document.querySelector('.navbar-menu700px')
+    
+    menu_bars.addEventListener('click',()=>{
+    menu.classList.toggle('show')
+    
+})
+  </script>
+</html>
